@@ -29,17 +29,17 @@ const Order = () => {
                 </thead>
                 <tbody>
                   <tr className="bg-white text-gray-700">
-                    <th scope="row" className="px-6 py-4 font-medium  whitespace-nowrap">Apple MacBook Pro 17"</th>
+                    <th scope="row" className="px-6 py-4 font-medium  whitespace-nowrap">Apple MacBook Pro 17</th>
                     <td className="px-6 py-4">1</td>
                     <td className="px-6 py-4">$2999</td>
                   </tr>
                   <tr className="bg-white text-gray-700">
-                    <th scope="row" className="px-6 py-4 font-medium  whitespace-nowrap">Apple MacBook Pro 17"</th>
+                    <th scope="row" className="px-6 py-4 font-medium  whitespace-nowrap">Apple MacBook Pro 17</th>
                     <td className="px-6 py-4">1</td>
                     <td className="px-6 py-4">$2999</td>
                   </tr>
                   <tr className="bg-white text-gray-700">
-                    <th scope="row" className="px-6 py-4 font-medium  whitespace-nowrap">Apple MacBook Pro 17"</th>
+                    <th scope="row" className="px-6 py-4 font-medium  whitespace-nowrap">Apple MacBook Pro 17</th>
                     <td className="px-6 py-4">1</td>
                     <td className="px-6 py-4">$2999</td>
                   </tr>
