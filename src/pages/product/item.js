@@ -1,16 +1,15 @@
-"use client"
 import Footer from '@/Components/Footer';
 import Navbar from '@/Components/Navbar';
 import React from 'react';
 
-const page = () => {
+const item = () => {
   return (
-    <div className="">
+    <div className='overflow-x-hidden'>
       <Navbar />
-      Page Content
+      <div className="">Item here</div>
       <Footer />
     </div>
   );
 }
 
-export default page;
+export default item;
