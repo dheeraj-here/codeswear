@@ -17,7 +17,7 @@ const SlugPage = ({ product }) => {
   const [service, setService] = useState();
 
   const checkServicability = async () => {
-    let pins = await fetch(`http://localhost:3000/api/pincode`)
+    let pins = await fetch(`${process.env.HOST}/api/pincode`)
     let pinJson = await pins.json();
     if (Object.keys(pinJson).includes(pin)) {
       toast.success('Yes, pincode is serviceable!', {

@@ -13,7 +13,7 @@ const Signup = () => {
     e.preventDefault();
     const data = { name, email, password };
 
-    let res = await fetch("http://localhost:3000/api/signup", {
+    let res = await fetch(`${process.env.HOST}/api/signup`, {
       method: "POST",
       headers: {
         'Content-Type': "application/json"

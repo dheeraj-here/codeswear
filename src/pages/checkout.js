@@ -32,7 +32,7 @@ const Checkout = () => {
     else if (e.target.name == 'pincode') {
       setPincode(e.target.value)
       if (e.target.value.length == 6) {
-        let pins = await fetch(`http://localhost:3000/api/pincode`)
+        let pins = await fetch(`${process.env.HOST}/api/pincode`)
         let pinJson = await pins.json();
         if (Object.keys(pinJson).includes(e.target.value)) {
           console.log(pinJson[e.target.value][0]);
@@ -63,7 +63,7 @@ const Checkout = () => {
     // Get txtToken
 
     const data = { cart, subTotal, oid };
-    let a = await fetch('http://localhost:3000/api/preTransaction', {
+    let a = await fetch(`${process.env.HOST}api/preTransaction`, {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
